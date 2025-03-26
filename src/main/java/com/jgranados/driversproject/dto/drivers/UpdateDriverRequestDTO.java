@@ -13,8 +13,7 @@ import lombok.Value;
  * @author jose
  */
 @Value
-public class NewDriverRequestDTO {
-
+public class UpdateDriverRequestDTO {
    @NotBlank
    private final String name;
    @Min(18)

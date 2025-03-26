@@ -22,4 +22,6 @@ public interface DriverRepository extends CrudRepository<Driver, Long>{
     List<Driver> findAll();
     
     boolean existsByName(String name);
+
+    boolean existsByNameAndIdNot(String name, Long id);
 }
